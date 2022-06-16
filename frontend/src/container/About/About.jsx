@@ -1,17 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import './About.scss';
 import {motion} from 'framer-motion';
-import {images} from '../../constants'
 import {urlFor, client} from '../../client';
 
-import {AppWrap, MotionWrap} from '../../wrapper'
-
-{/*const abouts = [
-    { title: 'Web Development', description: 'lol', imgURL: images.about01},
-    { title: 'Front-end', description: 'js', imgURL: images.about02},
-    { title: 'Back-end', description: 'c#', imgURL: images.about03},
-    { title: 'UI/UX', description: 'what up', imgURL: images.about04}
-]*/}
+import {AppWrap, MotionWrap} from '../../wrapper';
 
 const About = () => {
     const [abouts, setAbouts] = useState([]);
