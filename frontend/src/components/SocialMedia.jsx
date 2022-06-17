@@ -1,6 +1,6 @@
 import React from 'react';
 import {BsGithub, BsLinkedin} from 'react-icons/bs'
-import {motion} from 'framer-motion'
+
 const SocialMedia = () => {
     return (
         <div className='app__social'>
